@@ -4,6 +4,9 @@ module.exports = ({ env }) => ({
       jwtSecret: env('JWT_SECRET'),
       },
     },
+    ckeditor: {
+      enabled: true,
+    },
     upload: {
       config: {
         provider: 'cloudinary',
