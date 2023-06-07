@@ -4,11 +4,6 @@ module.exports = ({ env }) => ({
       jwtSecret: env('JWT_SECRET'),
       },
     },
-    ckeditor5: {
-      enabled: true,
-      resolve: "./src/plugins/strapi-plugin-ckeditor"
-    },
-  
     upload: {
       config: {
         provider: 'cloudinary',
